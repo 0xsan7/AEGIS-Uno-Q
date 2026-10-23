@@ -1,0 +1,47 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~
+
+# App Lab runtime state and local data
+.cache/
+data/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build products and exported app bundles
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.zip
+
+# Local credentials and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Private tooling state and credential files
+.aws/
+.codex/
+.agents/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
